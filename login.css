@@ -1,0 +1,71 @@
+h1 {
+    font-size: 45px;
+    margin: 3% 1% 1% 1%;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+}
+
+.login-container {
+    background-color: white;
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    background-color: rgb(47, 200, 47);
+}
+
+h2 {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(2, 158, 2);
+}
+
+.login-container h2 {
+    margin-top: 0;
+}
+
+#login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#login-form label {
+    color: green;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#login-form input {
+    
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid green;
+    border-radius: 5px;
+}
+
+#entrar-btn {
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#entrar-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+#entrar-btn:enabled{
+    color: white;
+}
